@@ -138,11 +138,11 @@ app.layout = html.Div(children=[html.H1('US Domestic Airline Flights Performance
 # Callback function definition
 # TASK4: Add 5 ouput components
 # Enter your code below. Make sure you have correct formatting.
-@app.callback( [Output(component_id='plot1',component_property='children'),
-                Output(component_id='plot2',component_property='children'),
-                Output(component_id='plot3',component_property='children'),
-                Output(component_id='plot4',component_property='children'),
-                Output(component_id='plot5',component_property='children')],
+@app.callback( [Output(component_id='plot1',component_property='children1'),
+                Output(component_id='plot2',component_property='children2'),
+                Output(component_id='plot3',component_property='children3'),
+                Output(component_id='plot4',component_property='children4'),
+                Output(component_id='plot5',component_property='children5')],
                [Input(component_id='input-type', component_property='value'),
                 Input(component_id='input-year', component_property='value')],
                # REVIEW4: Holding output state till user enters all the form information. In this case, it will be chart type and year
